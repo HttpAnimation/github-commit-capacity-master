@@ -1,5 +1,5 @@
 #!/bin/bash
- claer
+claer
 source .env
 git pull
 
