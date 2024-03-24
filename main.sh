@@ -18,5 +18,6 @@ while true; do
         echo "git.sh has exited with an error. Restarting..."
     fi
 
-    sleep 1  # Adjust sleep duration as needed
+    echo "Waiting for 10 minutes before restarting..."
+    sleep 10  # 10 minutes = 600 seconds
 done
