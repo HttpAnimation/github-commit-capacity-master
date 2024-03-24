@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Function to ignore SIGINT
+ignore_sigint() {
+    echo "Ignoring SIGINT (Ctrl+C)"
+}
+
+# Trap SIGINT and call the function to ignore it
+trap ignore_sigint SIGINT
+
 while true; do
     echo "Running git.sh..."
     ./git.sh
