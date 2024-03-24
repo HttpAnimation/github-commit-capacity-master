@@ -5,7 +5,7 @@ git pull
 
 for i in $( eval echo {1..$COMMIT_COUNT} )
 do
-  git commit --allow-empty -m 'go + git + github = 💥'
+  git commit --allow-empty -m 'I like boys :3'
 
  if [[ $i%$PUSH_THRESHOLD -eq 0 ]]
   then 
